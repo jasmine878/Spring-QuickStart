@@ -1,13 +1,13 @@
-package com.example.restservice;
+package com.example.consumingrest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestServiceApplication {
+public class ConsumingRestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestServiceApplication.class, args);
+		SpringApplication.run(ConsumingRestApplication.class, args);
 	}
 
 }
